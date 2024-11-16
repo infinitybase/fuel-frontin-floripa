@@ -1,0 +1,8 @@
+/**/node_modules
+.idea
+.DS_Store
+.turbo
+.env
+.env.local
+dist
+packages/chain/mnt

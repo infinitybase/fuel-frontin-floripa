@@ -1,0 +1,44 @@
+{
+  "name": "counter-dapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "format": "biome format --write ./src"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fuels/connectors": "0.27.1",
+    "@fuels/react": "^0.25.0",
+    "@mui/icons-material": "^5.16.5",
+    "@mui/material": "^5.16.5",
+    "@tanstack/react-query": "^5.29.2",
+    "@wagmi/connectors": "5.0.26",
+    "@wagmi/core": "2.13.4",
+    "dotenv": "^16.4.5",
+    "fuels": "0.94.5",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^6.25.1",
+    "react-use": "^17.5.0",
+    "sway-example-commons": "^0.0.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^20",
+    "@types/react": "^18.2",
+    "@types/react-dom": "^18.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-static-copy": "^1.0.1"
+  }
+}
